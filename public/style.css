@@ -1,0 +1,130 @@
+body {
+    background-color: #F0F2F5;
+    margin: 0;
+}
+.container{
+    display: flex;
+    width: 100%;
+}
+.leftContainer{
+    width: 50%;
+    height: 100vh;
+    text-align: center;
+    margin-top: 23vh;
+    margin-left: 2ex;
+
+}
+
+img {
+    height: 106px;
+}
+h2{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+    
+    text-align: left;
+    margin-left: 16rem;
+    margin-top: -10px;
+}
+
+
+.rightContainer{
+    width: 50%;
+    height: 100vh;
+    margin-top: 18vh;
+    margin-left: 5rem;
+
+}
+
+form{
+    background-color: #FFFFFF;
+    width: max-content;
+    background: #FFFFFF url(/rsrc.php/v3/yO/r/YQNfPR9MJfx.png) repeat-x;
+    border: 1px solid #dddfe2;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 32px;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    text-align: center;
+}
+
+input{
+    margin-bottom: 1rem;
+    width: 330px;
+    padding: 14px 16px;
+    font-size: 17px;
+    color: #1d2129;
+    height: 22px;
+    line-height: 16px;
+    vertical-align: middle;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;  
+    font: 400 13.3333px Arial;
+    font-size: 17px;
+    outline: #166FE5;
+}
+
+input:focus{
+    border: 1px solid #166FE5;
+    
+}
+
+input:focus::-webkit-input-placeholder {
+    color: #dddfe2;
+}
+
+
+input[type="submit"]{
+    background-color: #166FE5;
+    color: white;
+    font-weight: bold;
+    height: 3rem;
+    width: 365px;
+    cursor: pointer;
+    font-size: 17px;
+    padding: 0 16px;
+
+}
+a{
+    background-color: #fff;
+    color: #1877F4;
+    font-size: 0.9rem;
+    width: 365px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+
+button{
+    background-color: #42b72a;
+    font-weight: bold;
+    color: white;
+    width: max-content;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+button:hover{
+    background-color: #36a420;
+}
+hr.line{
+    border-top: 1px solid #dadde1;
+}
+
+p{
+    color: #1c1e21;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    margin-left: 4rem;
+}
